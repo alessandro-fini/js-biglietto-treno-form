@@ -10,7 +10,15 @@ body{
 }
 
 /* commons */
+.show{
+  opacity: 1;
+  transition: 0.2s linear;
+}
 
+.hidden{
+  opacity: 0;
+  transition: 0.2s linear;
+}
 /* /commons */
 
 .container{
@@ -123,7 +131,7 @@ h2{
   height: 200px;
   border-top: 2px solid #808080;
   border-bottom: 2px solid #808080;
-  padding: 20px;
+  padding: 30px;
 }
 
 .ticket_detail table{
@@ -131,7 +139,7 @@ h2{
 }
 
 .ticket_detail table td{
-  padding: 50px 0;
+  padding-top: 50px;
   text-align: center;
 }
 /* /dettaglio biglietto */
