@@ -50,7 +50,56 @@ h1{
   font-weight: bold;
 }
 
-.col input{
+.col input,
+.col select{
+  padding: 5px 0;
   border: 1px solid #b91450;
+  border-radius: 5px;
+  text-align: center;
 }
+
+.col input:focus,
+.col select:focus{
+  background-color: #b91450;
+  color: white;
+}
+
+/* button */
+.form .row .button{
+  background-color: #cccccc;
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin: 40px 5px 0;
+  padding: 5px 10px;
+  color: #b91450;
+  font-weight: bold;
+}
+
+.form .row .button:active{
+  border: 2px solid #9c609d;
+  background-color: gray;
+}
+
+.form .row .button:hover{
+  cursor: pointer;
+}
+/* /button */
 /* /form */
+
+/* biglietto */
+h2{
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.ticket{
+  padding: 20px;
+  background-color: white;
+}
+
+.ticket h3{
+  text-transform: uppercase;
+}
+/* /biglietto */
