@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Calcola il prezzo del tuo biglietto</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
@@ -19,27 +19,37 @@
         <!-- input nominativo -->
         <div class="col">
           <label for="name">Nome e Cognome</label>
-          <input type="text" value="name" placeholder="Inserisci il nome ed il cognome">
+          <input  id="name" type="text" placeholder="Inserisci il nome ed il cognome">
         </div>
         <!-- /input nominativo -->
         <!-- input km -->
         <div class="col">
           <label for="distance">Km da percorrere</label>
-          <input type="number" value="distance">
+          <input id="distance" type="number">
         </div>
         <!-- /input km -->
         <!-- input età -->
         <div class="col">
           <label for="age">Fascia d'et&agrave;</label>
-          <select class="age">
-            <option value="under_18">Minorenne</option>
-            <option value="over_18">Maggiorenne</option>
-            <option value="over_65">Over 65</option>
+          <select id="age">
+            <option value="under18">Minorenne</option>
+            <option value="over18">Maggiorenne</option>
+            <option value="over65">Over 65</option>
           </select>
         </div>
         <!-- /input età -->
       </div>
       <!-- /first row -->
+      <!-- second row -->
+      <div class="row">
+        <div class="button">
+          <span>Genera</span>
+        </div>
+        <div class="button">
+          <span>Annulla</span>
+        </div>
+      </div>
+      <!-- /second row -->
     </div>
     <!-- /form di input -->
   </div>
