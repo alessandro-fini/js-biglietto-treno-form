@@ -129,5 +129,10 @@ h2{
 .ticket_detail table{
   width: 100%;
 }
+
+.ticket_detail table td{
+  padding: 50px 0;
+  text-align: center;
+}
 /* /dettaglio biglietto */
 /* /biglietto */
