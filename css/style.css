@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #b91450;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* commons */
+
+/* /commons */
+
+.container{
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1{
+  margin: 40px 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+/* form */
+.form{
+  padding: 20px 40px;
+  background-color: white;
+}
+.form .row{
+  display: flex;
+  justify-content: center;
+}
+
+.form .col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+/* /form */

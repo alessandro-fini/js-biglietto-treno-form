@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>calcola il prezzo del tuo biglietto</h1>
+    <!-- form di input -->
+    <div class="form">
+      <!-- first row -->
+      <div class="row">
+        <!-- input nominativo -->
+        <div class="col">
+          <label for="name">Nome e Cognome</label>
+          <input type="text" value="name" placeholder="Inserisci il nome ed il cognome">
+        </div>
+        <!-- /input nominativo -->
+        <!-- input km -->
+        <div class="col">
+          <label for="distance">Km da percorrere</label>
+          <input type="number" value="distance">
+        </div>
+        <!-- /input km -->
+        <!-- input età -->
+        <div class="col">
+          <label for="age">Fascia d'et&agrave;</label>
+          <select class="age">
+            <option value="under_18">Minorenne</option>
+            <option value="over_18">Maggiorenne</option>
+            <option value="over_65">Over 65</option>
+          </select>
+        </div>
+        <!-- /input età -->
+      </div>
+      <!-- /first row -->
+    </div>
+    <!-- /form di input -->
+  </div>
+  <script src="js/script.js" charset="utf-8"></script>
+</body>
+</html>
