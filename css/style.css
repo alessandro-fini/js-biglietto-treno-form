@@ -102,4 +102,32 @@ h2{
 .ticket h3{
   text-transform: uppercase;
 }
+
+.ticket .personal_ticket{
+  display: flex;
+}
+
+.personal_ticket .passenger{
+  width: 200px;
+  height: 200px;
+  padding: 30px 20px;
+  background-color: #808080;
+}
+
+.personal_ticket .passenger h4{
+  font-size: 25px;
+}
+/* dettaglio biglietto */
+.personal_ticket .ticket_detail{
+  width: calc(100% - 200px);
+  height: 200px;
+  border-top: 2px solid #808080;
+  border-bottom: 2px solid #808080;
+  padding: 20px;
+}
+
+.ticket_detail table{
+  width: 100%;
+}
+/* /dettaglio biglietto */
 /* /biglietto */
